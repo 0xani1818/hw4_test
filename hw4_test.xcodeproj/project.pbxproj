@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD0A4F722944BEF80080D697 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0A4F712944BEF70080D697 /* LoginView.swift */; };
+		FD0A4F772944E4700080D697 /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = FD0A4F762944E4700080D697 /* FacebookLogin */; };
+		FD0A4F792944E5990080D697 /* FbLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0A4F782944E5990080D697 /* FbLogin.swift */; };
+		FD0A4F7B2944FB550080D697 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0A4F7A2944FB530080D697 /* UserView.swift */; };
+		FD0A4F7D2945B4F50080D697 /* UpComingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0A4F7C2945B4F00080D697 /* UpComingView.swift */; };
+		FD0A4F7F294A055A0080D697 /* NowPlaying.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0A4F7E294A05570080D697 /* NowPlaying.swift */; };
+		FD0A4F81294A06B80080D697 /* TopRated.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0A4F80294A06B70080D697 /* TopRated.swift */; };
+		FD0A4F83294A380A0080D697 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0A4F82294A38090080D697 /* HomePage.swift */; };
+		FD0A4F85294A40F60080D697 /* shareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0A4F84294A40F60080D697 /* shareView.swift */; };
+		FD0A4F87295AF3FE0080D697 /* login.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0A4F86295AF3FD0080D697 /* login.swift */; };
+		FD0A4F89295AF49C0080D697 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0A4F88295AF49C0080D697 /* SignUp.swift */; };
+		FD0A4F8B295AF7410080D697 /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0A4F8A295AF7410080D697 /* SignIn.swift */; };
+		FD0A4F8F295AF9990080D697 /* AlertX in Frameworks */ = {isa = PBXBuildFile; productRef = FD0A4F8E295AF9990080D697 /* AlertX */; };
+		FD0A4F912960AE610080D697 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0A4F902960AE600080D697 /* SearchBar.swift */; };
+		FD317977293EBF290068E4AB /* MovieRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD317976293EBF290068E4AB /* MovieRow.swift */; };
+		FD317979293EBF8B0068E4AB /* Pre.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD317978293EBF8B0068E4AB /* Pre.swift */; };
+		FD31797B293EC0CA0068E4AB /* Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD31797A293EC0CA0068E4AB /* Detail.swift */; };
+		FD31797D293F9F5C0068E4AB /* PopularList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD31797C293F9F5B0068E4AB /* PopularList.swift */; };
 		FDC96E07293EBADF00A17686 /* hw4_testApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC96E06293EBADF00A17686 /* hw4_testApp.swift */; };
 		FDC96E09293EBADF00A17686 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC96E08293EBADF00A17686 /* ContentView.swift */; };
 		FDC96E0B293EBAE500A17686 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDC96E0A293EBAE500A17686 /* Assets.xcassets */; };
@@ -34,6 +52,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FD0A4F712944BEF70080D697 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		FD0A4F732944E1010080D697 /* hw4-test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "hw4-test-Info.plist"; sourceTree = SOURCE_ROOT; };
+		FD0A4F742944E2CC0080D697 /* hw4_test.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = hw4_test.entitlements; sourceTree = "<group>"; };
+		FD0A4F782944E5990080D697 /* FbLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FbLogin.swift; sourceTree = "<group>"; };
+		FD0A4F7A2944FB530080D697 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		FD0A4F7C2945B4F00080D697 /* UpComingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpComingView.swift; sourceTree = "<group>"; };
+		FD0A4F7E294A05570080D697 /* NowPlaying.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlaying.swift; sourceTree = "<group>"; };
+		FD0A4F80294A06B70080D697 /* TopRated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRated.swift; sourceTree = "<group>"; };
+		FD0A4F82294A38090080D697 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		FD0A4F84294A40F60080D697 /* shareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shareView.swift; sourceTree = "<group>"; };
+		FD0A4F86295AF3FD0080D697 /* login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = login.swift; sourceTree = "<group>"; };
+		FD0A4F88295AF49C0080D697 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		FD0A4F8A295AF7410080D697 /* SignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
+		FD0A4F902960AE600080D697 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		FD317976293EBF290068E4AB /* MovieRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRow.swift; sourceTree = "<group>"; };
+		FD317978293EBF8B0068E4AB /* Pre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pre.swift; sourceTree = "<group>"; };
+		FD31797A293EC0CA0068E4AB /* Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detail.swift; sourceTree = "<group>"; };
+		FD31797C293F9F5B0068E4AB /* PopularList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularList.swift; sourceTree = "<group>"; };
 		FDC96E03293EBADF00A17686 /* hw4_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hw4_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDC96E06293EBADF00A17686 /* hw4_testApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hw4_testApp.swift; sourceTree = "<group>"; };
 		FDC96E08293EBADF00A17686 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,6 +87,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD0A4F8F295AF9990080D697 /* AlertX in Frameworks */,
+				FD0A4F772944E4700080D697 /* FacebookLogin in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,8 +132,25 @@
 		FDC96E05293EBADF00A17686 /* hw4_test */ = {
 			isa = PBXGroup;
 			children = (
+				FD0A4F742944E2CC0080D697 /* hw4_test.entitlements */,
+				FD0A4F732944E1010080D697 /* hw4-test-Info.plist */,
 				FDC96E06293EBADF00A17686 /* hw4_testApp.swift */,
+				FD0A4F782944E5990080D697 /* FbLogin.swift */,
+				FD0A4F86295AF3FD0080D697 /* login.swift */,
+				FD0A4F88295AF49C0080D697 /* SignUp.swift */,
+				FD0A4F902960AE600080D697 /* SearchBar.swift */,
+				FD0A4F8A295AF7410080D697 /* SignIn.swift */,
+				FD0A4F7A2944FB530080D697 /* UserView.swift */,
 				FDC96E08293EBADF00A17686 /* ContentView.swift */,
+				FD0A4F712944BEF70080D697 /* LoginView.swift */,
+				FD317976293EBF290068E4AB /* MovieRow.swift */,
+				FD31797C293F9F5B0068E4AB /* PopularList.swift */,
+				FD0A4F7C2945B4F00080D697 /* UpComingView.swift */,
+				FD0A4F82294A38090080D697 /* HomePage.swift */,
+				FD0A4F7E294A05570080D697 /* NowPlaying.swift */,
+				FD0A4F80294A06B70080D697 /* TopRated.swift */,
+				FD31797A293EC0CA0068E4AB /* Detail.swift */,
+				FD0A4F84294A40F60080D697 /* shareView.swift */,
 				FDC96E0A293EBAE500A17686 /* Assets.xcassets */,
 				FDC96E0C293EBAE500A17686 /* Preview Content */,
 			);
@@ -106,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				FDC96E0D293EBAE500A17686 /* Preview Assets.xcassets */,
+				FD317978293EBF8B0068E4AB /* Pre.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -143,6 +199,10 @@
 			dependencies = (
 			);
 			name = hw4_test;
+			packageProductDependencies = (
+				FD0A4F762944E4700080D697 /* FacebookLogin */,
+				FD0A4F8E295AF9990080D697 /* AlertX */,
+			);
 			productName = hw4_test;
 			productReference = FDC96E03293EBADF00A17686 /* hw4_test.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +275,11 @@
 				Base,
 			);
 			mainGroup = FDC96DFA293EBADE00A17686;
+			packageReferences = (
+				FD0A4F752944E46F0080D697 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
+				FD0A4F8C295AF8F50080D697 /* XCRemoteSwiftPackageReference "AlertX" */,
+				FD0A4F8D295AF9990080D697 /* XCRemoteSwiftPackageReference "AlertX" */,
+			);
 			productRefGroup = FDC96E04293EBADF00A17686 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +322,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD0A4F7D2945B4F50080D697 /* UpComingView.swift in Sources */,
+				FD0A4F87295AF3FE0080D697 /* login.swift in Sources */,
+				FD0A4F8B295AF7410080D697 /* SignIn.swift in Sources */,
 				FDC96E09293EBADF00A17686 /* ContentView.swift in Sources */,
+				FD0A4F792944E5990080D697 /* FbLogin.swift in Sources */,
+				FD0A4F912960AE610080D697 /* SearchBar.swift in Sources */,
+				FD0A4F722944BEF80080D697 /* LoginView.swift in Sources */,
+				FD0A4F85294A40F60080D697 /* shareView.swift in Sources */,
+				FD31797B293EC0CA0068E4AB /* Detail.swift in Sources */,
+				FD0A4F7F294A055A0080D697 /* NowPlaying.swift in Sources */,
+				FD0A4F83294A380A0080D697 /* HomePage.swift in Sources */,
+				FD317977293EBF290068E4AB /* MovieRow.swift in Sources */,
+				FD0A4F7B2944FB550080D697 /* UserView.swift in Sources */,
+				FD0A4F81294A06B80080D697 /* TopRated.swift in Sources */,
+				FD31797D293F9F5C0068E4AB /* PopularList.swift in Sources */,
+				FD0A4F89295AF49C0080D697 /* SignUp.swift in Sources */,
 				FDC96E07293EBADF00A17686 /* hw4_testApp.swift in Sources */,
+				FD317979293EBF8B0068E4AB /* Pre.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,15 +495,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = hw4_test/hw4_test.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"hw4_test/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "hw4-test-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -442,15 +524,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = hw4_test/hw4_test.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"hw4_test/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "hw4-test-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -577,6 +660,46 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FD0A4F752944E46F0080D697 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/facebook-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 13.0.0;
+			};
+		};
+		FD0A4F8C295AF8F50080D697 /* XCRemoteSwiftPackageReference "AlertX" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/neel-makhecha/AlertX";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		FD0A4F8D295AF9990080D697 /* XCRemoteSwiftPackageReference "AlertX" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/neel-makhecha/AlertX";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FD0A4F762944E4700080D697 /* FacebookLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FD0A4F752944E46F0080D697 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookLogin;
+		};
+		FD0A4F8E295AF9990080D697 /* AlertX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FD0A4F8D295AF9990080D697 /* XCRemoteSwiftPackageReference "AlertX" */;
+			productName = AlertX;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FDC96DFB293EBADE00A17686 /* Project object */;
 }
