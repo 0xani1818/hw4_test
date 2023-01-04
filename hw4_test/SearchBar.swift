@@ -51,6 +51,7 @@ struct SearchBar : UIViewRepresentable {
 
 struct SearchBarView: View {
     let djs = [
+        "峰迴路轉",
         "阿凡達2",
         "黑亞當",
         "Soul",
@@ -68,15 +69,12 @@ struct SearchBarView: View {
       var body: some View {
         NavigationView{
           List {
-            //2- search bar added to the list
             SearchBar(text: $searchTerm)
-            //3- filter djs based on the search term
             ForEach(self.djs.filter { self.searchTerm.isEmpty ? true : $0.contains(self.searchTerm) }, id: \.self) { name in
               Text(name)
             }
           }
-          .navigationBarTitle(Text("Top 10 Movies"))
-          .navigationBarTitleDisplayMode(.inline)
+          .navigationBarTitle(Text("Search"))
         }
       }
 }

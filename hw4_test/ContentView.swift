@@ -27,7 +27,7 @@ struct MovieResult: Codable,Hashable{
     let results:[Movie]
 }
 
-struct Movie:Codable, Hashable{
+struct Movie:Codable, Hashable,Identifiable{
     let id:Int
     let backdrop_path:String?
     let title:String
@@ -35,7 +35,6 @@ struct Movie:Codable, Hashable{
     let release_date:String
 }
 
-let movietype: [String] = ["熱門電影", "上映中", "即將上映", "評分最高"]
 
 struct CreateUser: Encodable {
     let user:[userInfo]
@@ -123,4 +122,28 @@ class account : ObservableObject{
     @Published var name = ""
     var email = ""
     var password = ""
+}
+
+class ItunesDataFetcher: ObservableObject {
+    @Published var items = [Movie]()
+    
+    enum FetchError: Error {
+        case invalidURL
+        case badRequest
+    }
+    
+    func fetchData(term:String) async throws {
+        let urlString = "https://api.themoviedb.org/3/discover/movie?api_key=fdcacafe0617aa0576fb8b9c2b754642&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=1&with_keywords=\(term)&with_watch_monetization_types=flatrate"
+        
+        guard let urlString = urlString.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed),
+              let url = URL(string: urlString) else {
+                  throw FetchError.invalidURL
+        }
+        let (data, response) = try await URLSession.shared.data(from: url)
+        guard (response as? HTTPURLResponse)?.statusCode == 200 else { throw FetchError.badRequest }
+        let searchResponse = try JSONDecoder().decode(MovieResult.self, from: data)
+        Task { @MainActor in
+            items = searchResponse.results
+        }
+    }
 }

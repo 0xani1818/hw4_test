@@ -30,6 +30,12 @@ struct HomePage: View {
                     Image(systemName: "chart.bar.fill")
                     Text("評分最高")
                 }
+            SearchBarView()
+                .tabItem {
+                    Image(systemName: "magnifyingglass")
+                    Text("搜尋")
+                }
+
         }
     }
 }
